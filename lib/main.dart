@@ -1,4 +1,3 @@
-import 'package:cleanarchitecureflutter/injector.dart';
 import 'package:flutter/material.dart';
 import 'features/number_trivia/presentation/views/number_trivia_page.dart';
 import 'injector.dart' as di;
