@@ -8,7 +8,6 @@ import 'package:cleanarchitecureflutter/features/number_trivia/domain/repositori
 import 'package:cleanarchitecureflutter/features/number_trivia/domain/usecases/get_concrete_number_trivia.dart';
 import 'package:cleanarchitecureflutter/features/number_trivia/domain/usecases/get_random_number_trivia.dart';
 import 'package:cleanarchitecureflutter/features/number_trivia/presentation/bloc/bloc/number_trivia_bloc.dart';
-import 'package:data_connection_checker/data_connection_checker.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -76,5 +75,4 @@ void initCore() async {
   final sharedPreferences = await SharedPreferences.getInstance();
   ic.registerLazySingleton<SharedPreferences>(() => sharedPreferences);
   ic.registerLazySingleton(() => HttpClient());
-  ic.registerLazySingleton(() => DataConnectionChecker());
 }
