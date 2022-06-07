@@ -38,12 +38,10 @@ dependencies:
   equatable: ^2.0.3
   dartz: ^0.10.1
   flutter_bloc: ^8.0.1
-  bloc: ^8.0.3
-  connectivity: ^3.0.6
+  bloc: ^8.0.3 
   http: ^0.13.4
   shared_preferences: ^2.0.15
-  mockito: ^5.2.0
-  data_connection_checker: ^0.3.4
+  mockito: ^5.2.0 
   connectivity_plus: ^2.3.2
 
 dev_dependencies:
