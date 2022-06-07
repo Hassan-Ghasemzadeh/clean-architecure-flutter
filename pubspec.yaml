@@ -44,6 +44,7 @@ dependencies:
   shared_preferences: ^2.0.15
   mockito: ^5.2.0
   data_connection_checker: ^0.3.4
+  connectivity_plus: ^2.3.2
 
 dev_dependencies:
   flutter_test:
